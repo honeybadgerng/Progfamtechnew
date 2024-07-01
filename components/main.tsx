@@ -28,7 +28,7 @@ const Main: NextPage<MainType> = ({ className = "" }) => {
                       Home
                     </a>
                     <a
-                      href="/b-o-o-t-c-a-m-p-p-a-g-e1"
+                      href="/bootcampPage"
                       className="[text-decoration:none] relative leading-[24px] font-extrabold text-steelblue-100 inline-block min-w-[111px] z-[1]"
                     >
                       Bootcamp
@@ -42,18 +42,6 @@ const Main: NextPage<MainType> = ({ className = "" }) => {
                     Get the best knowledge from our Versatile Tutors
                   </h1>
                   <div className="flex flex-row items-start justify-start relative text-17xl text-dark-blue font-space-grotesk">
-                    <div className="h-10 w-[155px] absolute !m-[0] right-[-94px] bottom-[-20px]">
-                      <div className="absolute top-[0px] left-[0px] w-full h-full hidden">
-                        <b className="absolute w-full top-[0%] left-[0%] leading-[40px] hidden h-full mq750:text-10xl mq750:leading-[32px] mq450:text-3xl mq450:leading-[24px]">
-                          in-house
-                        </b>
-                      </div>
-                      <div className="absolute top-[0px] left-[0px] w-full h-full hidden">
-                        <b className="absolute w-full top-[0%] left-[0%] leading-[40px] hidden h-full mq750:text-10xl mq750:leading-[32px] mq450:text-3xl mq450:leading-[24px]">
-                          in-house
-                        </b>
-                      </div>
-                    </div>
                     <div className="rounded-xl bg-white flex flex-row items-start justify-start py-5 px-[30px] whitespace-nowrap z-[2] text-9xl text-darkslateblue-100 font-montserrat hover:bg-gainsboro">
                       <div className="relative font-semibold">
                         Start learning!

@@ -1,8 +1,8 @@
 import type { NextPage } from "next";
 import Main from "../components/main";
 import FrameComponent from "../components/frame-component";
-import TESTIMONIAL from "../components/t-e-s-t-i-m-o-n-i-a-l";
-import EmailCapture from "../components/email-capture";
+import TESTIMONIAL from "../components/testimonial";
+import EmailCapture from "../components/emailCapture";
 import Footer from "../components/footer";
 
 const BOOTCAMPPAGE: NextPage = () => {
