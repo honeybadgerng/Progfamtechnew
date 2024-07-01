@@ -14,7 +14,12 @@ const Main: NextPage<MainType> = ({ className = "" }) => {
           <div className="flex-1 flex flex-col items-start justify-start pt-0 px-0 pb-[47px] box-border min-h-[484px] max-w-full mq750:pb-[31px] mq750:box-border mq750:min-w-full">
             <div className="self-stretch flex flex-col items-start justify-start gap-[177px] max-w-full mq750:gap-[88px] mq450:gap-[44px]">
               <div className="self-stretch flex flex-row items-start justify-between gap-[20px]">
-                <TECHNEW />
+                <a
+                  className="[text-decoration:none] relative font-extrabold text-[inherit] whitespace-nowrap"
+                  href="/"
+                >
+                  TECHNEW
+                </a>
                 <div className="w-56 flex flex-col items-start justify-start pt-[9px] px-0 pb-0 box-border">
                   <div className="self-stretch flex flex-row items-start justify-between gap-[20px]">
                     <a
