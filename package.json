@@ -27,7 +27,7 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "next build --verbose",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   }
