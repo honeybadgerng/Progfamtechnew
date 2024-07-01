@@ -123,31 +123,38 @@ const Footer: NextPage<FooterType> = ({
       </div>
       <div className="flex flex-row items-start justify-end py-0 px-[45px]">
         <div className="flex flex-row items-start justify-start gap-[12px]">
-          <div className="flex flex-row items-center justify-center relative gap-[10px] h-8 w-8">
-            <div className="h-8 w-8 relative rounded-[50%] bg-white" />
-            <img
-              className="h-3/6 w-6/12 absolute !m-[0] top-[25%] right-[25%] bottom-[25%] left-[25%] max-w-full overflow-hidden max-h-full z-[1]"
-              loading="lazy"
-              alt=""
-              src="/vector.svg"
-            />
-          </div>
-          <div className="flex flex-row items-center justify-center relative gap-[10px] h-8 w-8">
-            <div className="h-8 w-8 relative rounded-[50%] bg-white" />
-            <img
-              className="h-3/6 w-[62.5%] absolute !m-[0] top-[25.31%] right-[18.75%] bottom-[24.69%] left-[18.75%] max-w-full overflow-hidden max-h-full z-[1]"
-              alt=""
-              src="/vector-1.svg"
-            />
-          </div>
-          <div className="flex flex-row items-center justify-center relative gap-[10px] h-8 w-8">
-            <div className="h-8 w-8 relative rounded-[50%] bg-white" />
-            <img
-              className="h-[59.69%] w-[32.19%] absolute !m-[0] top-[21.88%] right-[33.75%] bottom-[18.44%] left-[34.06%] max-w-full overflow-hidden max-h-full z-[1]"
-              alt=""
-              src={vector}
-            />
-          </div>
+          <a href="#">
+            <div className="flex flex-row items-center justify-center relative gap-[10px] h-8 w-8">
+              <div className="h-8 w-8 relative rounded-[50%] bg-white" />
+              <img
+                className="h-3/6 w-6/12 absolute !m-[0] top-[25%] right-[25%] bottom-[25%] left-[25%] max-w-full overflow-hidden max-h-full z-[1]"
+                loading="lazy"
+                alt=""
+                src="/vector.svg"
+              />
+            </div>
+          </a>
+          <a href="#">
+            <div className="flex flex-row items-center justify-center relative gap-[10px] h-8 w-8">
+              <div className="h-8 w-8 relative rounded-[50%] bg-white" />
+              <img
+                className="h-3/6 w-[62.5%] absolute !m-[0] top-[25.31%] right-[18.75%] bottom-[24.69%] left-[18.75%] max-w-full overflow-hidden max-h-full z-[1]"
+                alt=""
+                src="/vector-1.svg"
+              />
+            </div>
+          </a>
+
+          <a href="#">
+            <div className="flex flex-row items-center justify-center relative gap-[10px] h-8 w-8">
+              <div className="h-8 w-8 relative rounded-[50%] bg-white" />
+              <img
+                className="h-[59.69%] w-[32.19%] absolute !m-[0] top-[21.88%] right-[33.75%] bottom-[18.44%] left-[34.06%] max-w-full overflow-hidden max-h-full z-[1]"
+                alt=""
+                src={vector}
+              />
+            </div>
+          </a>
         </div>
       </div>
     </footer>
