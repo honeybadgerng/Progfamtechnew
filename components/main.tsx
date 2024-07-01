@@ -1,5 +1,4 @@
 import type { NextPage } from "next";
-import TECHNEW from "./t-e-c-h-n-e-w";
 export type MainType = {
   className?: string;
 };
